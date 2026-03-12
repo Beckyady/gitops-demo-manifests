@@ -11,6 +11,8 @@ spec:
     repoURL: https://github.com/Beckyady/gitops-demo-manifests.git
     targetRevision: HEAD
     path: infrastructure
+    directory:
+      recurse: true
   destination:
     server: https://kubernetes.default.svc
     namespace: demo
